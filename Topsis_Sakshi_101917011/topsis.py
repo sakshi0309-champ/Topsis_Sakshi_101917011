@@ -25,8 +25,8 @@ class MyTopsis:
 
         try:
             read_file = pd.read_excel(self.input_file)
-            read_file.to_csv('101917196-data.csv', index=None, header=True)
-            df = pd.read_csv("101917196-data.csv")
+            read_file.to_csv('101917011-data.csv', index=None, header=True)
+            df = pd.read_csv("101917011-data.csv")
         except FileNotFoundError:
             print("File not found")
             exit()
